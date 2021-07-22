@@ -52,7 +52,6 @@ header a {
 
 
 .header-right {
-    background-color: green;
     padding-right: 32px;
 }
 
@@ -115,4 +114,14 @@ footer a {
     width: 12px;
     height: auto;
     margin-right: 2px;
+}
+
+.sign-in-button {
+    background-color: #4387fd;
+    color: #fff;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 4px;
 }
