@@ -6,10 +6,19 @@
     --footer-horizontal-padding: 0px;
 }
 
-
 * {
     box-sizing: content-box;
 }
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 body {
     margin: 0px;
@@ -31,10 +40,16 @@ header {
     align-items: center;
 }
 
+
 .header-left {
-    background-color: yellow;
-    padding-left: 20px;
+    padding-left: 18px;
 }
+
+header a {
+    margin: 8px;
+    display: inline-block;
+}
+
 
 .header-right {
     background-color: green;
@@ -68,13 +83,8 @@ footer {
 
 footer a {
     color: rgba(0,0,0,.54);
-    text-decoration: none;
     border: 0px solid blue;
     margin: 15px;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 .footer-bottom-el {
